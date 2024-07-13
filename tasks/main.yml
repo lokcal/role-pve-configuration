@@ -1,0 +1,4 @@
+---
+
+- name: Install wireguard and other prequisites on the server
+  include: 'install_wireguard.yml' ### Include seperate task from roles (merging in one task)

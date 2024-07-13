@@ -1,0 +1,15 @@
+---
+# defaults vars for role
+
+#EXAMPLE
+
+#Declare the VPN subnet
+vpn_network: '192.168.3'
+
+#Declare the VPN server port
+Listen_port: '51820'
+
+#Declare the number of clients
+clients: 1
+
+client_config_path: 'wireguard_role/profiles'
